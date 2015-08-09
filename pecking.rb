@@ -55,7 +55,7 @@ def pecking_order_hash
           :age => "2 years",
           :title => "New Hampshire Red",
           :sex => "female",
-          :favorite_food => "pellets",
+          :favorite_food => "scraps",
           :pecking_order => 4
           :eggs_per_day => 1
         },
@@ -69,7 +69,7 @@ def pecking_order_hash
         },
         { :name => "Pat",
           :age => "2 years",
-          :title => "Buff Orpington",
+          :title => "Black Copper Maran",
           :sex => "undetermined",
           :favorite_food => "pellets",
           :pecking_order => 7,
