@@ -5,15 +5,23 @@ def pecking_order_hash
       :members => [
         { :name => "Milo",
           :age => "20 months",
-          :title => "Egg Getter",
+          :title_or_breed => "Egg Getter",
           :sex => "male",
           :favorite_food => "cheeeese!",
           :pecking_order => 1,
           :eggs_per_day => 0
         },
+        { :name => "Natalie",
+          :age => "30 years",
+          :title_or_breed => "Mom",
+          :sex => "female",
+          :favorite_food => "hummus",
+          :pecking_order => 9,
+          :eggs_per_day => 0
+        },
         { :name => "Ryan",
           :age => "31 years",
-          :title => "Dad",
+          :title_or_breed => "Dad",
           :sex => "male",
           :favorite_food => "steak",
           :pecking_order => 9,
@@ -25,7 +33,7 @@ def pecking_order_hash
       :members => [
         { :name => "Parker",
           :age => "8 years",
-          :title => "Pitbull",
+          :title_or_breed => "Pitbull",
           :sex => "male",
           :favorite_food => "watermelon",
           :pecking_order => 2,
@@ -33,7 +41,7 @@ def pecking_order_hash
         },
         { :name => "Mana",
           :age => "3 years",
-          :title => "Mutt",
+          :title_or_breed => "Mutt",
           :sex => "female",
           :favorite_food => "anything",
           :pecking_order => 3,
@@ -45,23 +53,23 @@ def pecking_order_hash
       :members => [
         { :name => "Sookie Tawdry",
           :age => "2 years",
-          :title => "Buff Orpington",
+          :title_or_breed => "Buff Orpington",
           :sex => "female",
           :favorite_food => "seeds",
-          :pecking_order => 5
+          :pecking_order => 5,
           :eggs_per_day => 1
         },
         { :name => "Jenny Diver",
           :age => "2 years",
-          :title => "New Hampshire Red",
+          :title_or_breed => "New Hampshire Red",
           :sex => "female",
           :favorite_food => "scraps",
-          :pecking_order => 4
+          :pecking_order => 4,
           :eggs_per_day => 1
         },
         { :name => "Karlie Kloss",
           :age => "1 year",
-          :title => "Silver Laced Wyandotte",
+          :title_or_breed => "Silver Laced Wyandotte",
           :sex => "female",
           :favorite_food => "leftovers",
           :pecking_order => 6,
@@ -69,7 +77,7 @@ def pecking_order_hash
         },
         { :name => "Pat",
           :age => "2 years",
-          :title => "Black Copper Maran",
+          :title_or_breed => "Black Copper Maran",
           :sex => "undetermined",
           :favorite_food => "pellets",
           :pecking_order => 7,
@@ -77,7 +85,7 @@ def pecking_order_hash
         },
         { :name => "Chris",
           :age => "13 weeks",
-          :title => "Black Copper Maran",
+          :title_or_breed => "Black Copper Maran",
           :sex => "undetermined",
           :favorite_food => "pellets",
           :pecking_order => 7,
@@ -85,7 +93,7 @@ def pecking_order_hash
         },
         { :name => "Casey",
           :age => "13 weeks",
-          :title => "Black Copper Maran",
+          :title_or_breed => "Black Copper Maran",
           :sex => "undetermined",
           :favorite_food => "pellets",
           :pecking_order => 7,
@@ -93,36 +101,36 @@ def pecking_order_hash
         },
         { :name => "Dana",
           :age => "8 weeks",
-          :title => "Lavender Ameraucana",
+          :title_or_breed => "Lavender Ameraucana",
           :sex => "undetermined",
-          :favorite_food => "crumbles"
+          :favorite_food => "crumbles",
           :pecking_order => 8,
           :eggs_per_day => 0
         },
         { :name => "Taylor",
           :age => "8 weeks",
-          :title => "Lavender Ameraucana",
+          :title_or_breed => "Lavender Ameraucana",
           :sex => "undetermined",
-          :favorite_food => "crumbles"
+          :favorite_food => "crumbles",
           :pecking_order => 8,
           :eggs_per_day => 0
         },
         { :name => "Alex",
           :age => "8 weeks",
-          :title => "Lavender Ameraucana",
+          :title_or_breed => "Lavender Ameraucana",
           :sex => "undetermined",
-          :favorite_food => "crumbles"
+          :favorite_food => "crumbles",
           :pecking_order => 8,
           :eggs_per_day => 0
         },
         { :name => "Morgan",
           :age => "8 weeks",
-          :title => "Lavender Ameraucana",
+          :title_or_breed => "Lavender Ameraucana",
           :sex => "undetermined",
-          :favorite_food => "crumbles"
+          :favorite_food => "crumbles",
           :pecking_order => 8,
           :eggs_per_day => 0
-        },
+        }
       ]
     }
   }
