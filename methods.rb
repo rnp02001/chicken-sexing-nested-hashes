@@ -43,3 +43,19 @@ def title_or_breed(member)
   found_member = find_member_by_name(member)
   found_member[:title_or_breed] if found_member
 end
+
+def chicken_sexer(member, sex)
+  found_member = find_member_by_name(member)
+  if found_member
+    found_member[:sex] = sex
+  end
+  found_member
+end
+
+patrick = chicken_sexer("Pat", "male")
+puts "Name: #{patrick[:name]}"
+puts "Age: #{patrick[:age]}"
+puts "Breed: #{patrick[:title_or_breed]}"
+puts "Sex: #{patrick[:sex]}"
+puts "Pecking Order: #{patrick[:pecking_order]}"
+puts "Eggs Per Day: #{patrick[:eggs_per_day]}"

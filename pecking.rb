@@ -76,7 +76,7 @@ def pecking_order_hash
           :eggs_per_day => 1
         },
         { :name => "Pat",
-          :age => "2 years",
+          :age => "13 weeks",
           :title_or_breed => "Black Copper Maran",
           :sex => "undetermined",
           :favorite_food => "pellets",
